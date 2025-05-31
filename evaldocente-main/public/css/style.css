@@ -1,0 +1,25 @@
+.navbar-custom {
+    background-color: #2e7d32; /* Verde oscuro */
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: white;
+}
+.navbar-custom .nav-link:hover {
+    color: #c8e6c9; /* Verde claro */
+}
+.logo-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #a5d6a7;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #388e3c; /* Otro verde */
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+}

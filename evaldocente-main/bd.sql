@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS evaluacion;
+
+USE evaluacion;
+
+CREATE TABLE IF NOT EXISTS respuestas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    docente VARCHAR(100) NOT NULL,
+    pregunta1 TINYINT NOT NULL,
+    pregunta2 TINYINT NOT NULL,
+    pregunta3 TINYINT NOT NULL,
+    comentarios TEXT,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
